@@ -168,7 +168,7 @@ Bug reports with a log that was misdiagnosed are the most valuable contribution:
 
 ```bash
 pip install -e . pytest tensorboard ruff
-pytest && ruff check . && ruff format --check .
+pytest && ruff check src tests examples && ruff format --check src tests examples
 ```
 
 ## License

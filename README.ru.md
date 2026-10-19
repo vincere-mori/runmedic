@@ -168,7 +168,7 @@ runmedic diagnose examples/logs
 
 ```bash
 pip install -e . pytest tensorboard ruff
-pytest && ruff check . && ruff format --check .
+pytest && ruff check src tests examples && ruff format --check src tests examples
 ```
 
 ## Лицензия
