@@ -420,6 +420,8 @@ def check_lr_plateau(ctx: Ctx) -> list[Finding]:
     total = sm[0] - min(sm)
     if total <= 0 or (tail[0] - tail[-1]) > 0.02 * total:
         return []
+    if sm[0] > 0 and min(sm) < 0.05 * sm[0]:
+        return []  # the loss is already near zero: nothing left for LR decay to win
     return [
         Finding(
             "constant_lr_plateau",

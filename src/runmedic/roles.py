@@ -72,6 +72,8 @@ def detect(run: Run, overrides: dict[str, str] | None = None) -> dict[str, list[
         hits = [n for n in run.series if pattern.search(n) and n not in losses]
         if role == "host_mem":
             hits = [n for n in hits if n not in roles.get("gpu_mem", [])]
+        if role in ("throughput", "step_time"):
+            hits = [n for n in hits if not VAL.search(n)]  # eval speed says nothing about the training loop
         if hits:
             roles[role] = hits
 

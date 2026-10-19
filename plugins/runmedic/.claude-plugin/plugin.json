@@ -1,7 +1,7 @@
 {
   "name": "runmedic",
   "description": "Training run doctor: NaNs, divergence, overfitting, idle GPUs, memory leaks, from TensorBoard/MLflow/W&B/stdout logs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "vincere-mori"
   },

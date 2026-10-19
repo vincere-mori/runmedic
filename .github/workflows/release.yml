@@ -1,0 +1,23 @@
+name: Release
+
+# push a tag like v0.1.1 and the package goes to PyPI
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  pypi:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write  # trusted publishing, no API token needed
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install build
+      - name: Tag matches package version
+        run: test "v$(python -c 'import re;print(re.search(r"__version__ = \"(.+)\"", open("src/runmedic/__init__.py").read())[1])')" = "$GITHUB_REF_NAME"
+      - run: python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1

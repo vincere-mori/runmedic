@@ -182,3 +182,10 @@ def test_text_log_next_to_tensorboard_only_adds_errors(tmp_path):
     assert run.source == "tensorboard"
     assert run.series["loss"].values == [0, 1, 2]
     assert len(run.log_lines) == 1
+
+
+def test_text_hf_values_as_strings():
+    # transformers 5 prints metric values as strings
+    run = parse("{'loss': '0.9637', 'grad_norm': '2.371', 'learning_rate': '0.04867', 'epoch': '0.1'}")
+    assert run.series["loss"].values == [0.9637]
+    assert run.series["learning_rate"].values == [0.04867]

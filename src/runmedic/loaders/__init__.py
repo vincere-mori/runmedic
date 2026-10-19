@@ -69,6 +69,9 @@ def load_dir(root: Path) -> list[Run]:
         best = max(states, key=lambda f: f.stat().st_size)
         run = tabular.load_json(best)
         if run:
+            # the Trainer also mirrors the same metrics to TensorBoard under <output_dir>/runs/
+            hf_tb = best.parent.parent / "runs"
+            runs = [r for r in runs if not (r.source == "tensorboard" and hf_tb in Path(r.path).parents)]
             runs.append(run)
 
     # a stdout log next to TensorBoard/MLflow data usually repeats the same metrics: keep the structured

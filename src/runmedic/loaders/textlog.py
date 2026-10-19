@@ -11,7 +11,7 @@ from runmedic.model import LogEvent, Run
 NUM = r"[-+]?(?:\d+\.\d*|\.\d+|\d+)(?:[eE][-+]?\d+)?|[-+]?(?:nan|inf(?:inity)?)"
 # "loss=0.5", "'loss': 0.5", "Loss: 0.5", "loss 0.5", and two-word keys like "val loss 2.0" (nanoGPT)
 KV = re.compile(
-    rf"(?P<key>(?:(?:train|training|val|valid|validation|eval|test)\s+)?[A-Za-z_][\w./-]*)['\"]?(?:\s*[:=]\s*|\s+)(?P<val>{NUM})(?![\w.])",
+    rf"(?P<key>(?:(?:train|training|val|valid|validation|eval|test)\s+)?[A-Za-z_][\w./-]*)['\"]?(?:\s*[:=]\s*|\s+)['\"]?(?P<val>{NUM})(?![\w.])",
     re.IGNORECASE,
 )
 STEP = re.compile(r"\b(?:global_step|step|iter(?:ation)?)\b['\"]?\s*[:=]?\s*(\d+)", re.IGNORECASE)

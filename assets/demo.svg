@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="972" height="548" viewBox="0 0 972 548">
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+<text x="20" y="62" fill="#c9d1d9" font-weight="600" xml:space="preserve">$ runmedic diagnose examples/logs/nan</text>
+<text x="20" y="82" fill="#8b949e" xml:space="preserve"></text>
+<text x="20" y="102" fill="#c9d1d9" font-weight="600" xml:space="preserve">Found: 1 critical, 1 warning</text>
+<text x="20" y="122" fill="#8b949e" xml:space="preserve"></text>
+<text x="20" y="142" fill="#ff7b72" font-weight="600" xml:space="preserve">1. [CRITICAL] `train/loss` became NaN/inf at step 324</text>
+<text x="20" y="162" fill="#c9d1d9" xml:space="preserve">   · `train/loss` is inf at step 324 (last finite value 7.32e+33 at step 323)</text>
+<text x="20" y="182" fill="#c9d1d9" xml:space="preserve">   · 76 of 400 logged points are NaN/inf after that</text>
+<text x="20" y="202" fill="#c9d1d9" xml:space="preserve">   · `train/loss` climbed to 7.32e+33 right before, 6.90e+31x its earlier median</text>
+<text x="20" y="222" fill="#c9d1d9" xml:space="preserve">   · grad norm jumped to 4.79e+11 before the NaN (4.85e+08x its median)</text>
+<text x="20" y="242" fill="#c9d1d9" xml:space="preserve">   · learning rate at that point: 2.49e-04</text>
+<text x="20" y="262" fill="#c9d1d9" xml:space="preserve">   · the learning rate was still rising when it broke: 124.5x its starting value</text>
+<text x="20" y="282" fill="#7ee787" font-weight="600" xml:space="preserve">   Likely causes:</text>
+<text x="20" y="302" fill="#8b949e" xml:space="preserve">     - The LR schedule never stops increasing (warmup that never ends, wrong `total_steps`, or a custom lambda)</text>
+<text x="20" y="322" fill="#8b949e" xml:space="preserve">     - Exploding gradients: the learning rate is too high for this point of training</text>
+<text x="20" y="342" fill="#8b949e" xml:space="preserve">     - fp16 overflow under mixed precision (if you use AMP with float16)</text>
+<text x="20" y="362" fill="#7ee787" font-weight="600" xml:space="preserve">   What to try:</text>
+<text x="20" y="382" fill="#8b949e" xml:space="preserve">     1. Check the scheduler: print `scheduler.get_last_lr()` over steps and make sure it peaks and then decays</text>
+<text x="20" y="402" fill="#8b949e" xml:space="preserve">     2. Clip gradients: `torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)`</text>
+<text x="20" y="422" fill="#8b949e" xml:space="preserve">     3. Lower the peak learning rate 2-10x</text>
+<text x="20" y="442" fill="#8b949e" xml:space="preserve">     4. Resume from a checkpoint before the blow-up instead of restarting from scratch</text>
+<text x="20" y="462" fill="#8b949e" xml:space="preserve">     5. Prefer bf16 autocast; with fp16 keep `GradScaler` and clip after `scaler.unscale_(optimizer)`</text>
+<text x="20" y="482" fill="#8b949e" xml:space="preserve"></text>
+<text x="20" y="502" fill="#d29922" font-weight="600" xml:space="preserve">2. [WARNING] Gradient norm spikes (7)</text>
+<text x="20" y="522" fill="#c9d1d9" xml:space="preserve">   · `train/grad_norm` median is 703.7, but 7 step(s) exceed 10x that; max 9.40e+03 at step 23</text>
+</g>
+</svg>
