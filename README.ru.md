@@ -6,6 +6,7 @@
 Работает как CLI и как скилл для AI-агентов (Claude Code, Codex и другие).
 
 [![CI](https://github.com/vincere-mori/runmedic/actions/workflows/ci.yml/badge.svg)](https://github.com/vincere-mori/runmedic/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/runmedic)](https://pypi.org/project/runmedic/)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -81,13 +82,13 @@ Found: 1 critical, 1 warning
 ## Установка
 
 ```bash
-pip install git+https://github.com/vincere-mori/runmedic
+pip install runmedic
 ```
 
 или без установки:
 
 ```bash
-uvx --from git+https://github.com/vincere-mori/runmedic runmedic diagnose runs/
+uvx runmedic diagnose runs/
 ```
 
 Ноль зависимостей, Python 3.10+.

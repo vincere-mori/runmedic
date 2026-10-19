@@ -31,10 +31,10 @@ runmedic diagnose <path> --json
 If `runmedic` is not installed, run it without installing:
 
 ```bash
-uvx --from git+https://github.com/vincere-mori/runmedic runmedic diagnose <path> --json
+uvx runmedic diagnose <path> --json
 ```
 
-or install it: `pip install git+https://github.com/vincere-mori/runmedic` (add `[wandb]` for W&B runs).
+or install it: `pip install runmedic` (`pip install "runmedic[wandb]"` for W&B runs).
 
 Check `roles` in the JSON: runmedic guesses which series is the train loss, val loss, learning rate, grad norm and so on. If a guess is wrong, list the series with `runmedic series <path>` and pass the right ones: `--train-loss NAME --val-loss NAME --lr NAME --grad-norm NAME --gpu-util NAME --step-time NAME`.
 

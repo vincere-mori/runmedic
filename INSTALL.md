@@ -15,10 +15,10 @@ The user asked you to install **runmedic** from https://github.com/vincere-mori/
 Install it into the Python environment the user trains in (ask if there are several, for example a project venv or conda env):
 
 ```bash
-pip install git+https://github.com/vincere-mori/runmedic
+pip install runmedic
 ```
 
-If they use W&B, install `"runmedic[wandb] @ git+https://github.com/vincere-mori/runmedic"` instead. If they prefer not to install anything, skip this step: the skill can run the CLI through `uvx --from git+https://github.com/vincere-mori/runmedic runmedic`.
+If they use W&B, install `"runmedic[wandb]"` instead. If they prefer not to install anything, skip this step: the skill can run the CLI through `uvx runmedic`.
 
 Check: `runmedic --version`.
 

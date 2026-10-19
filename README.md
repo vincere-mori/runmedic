@@ -6,11 +6,12 @@
 Works as a CLI and as a skill for coding agents (Claude Code, Codex and others).
 
 [![CI](https://github.com/vincere-mori/runmedic/actions/workflows/ci.yml/badge.svg)](https://github.com/vincere-mori/runmedic/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/runmedic)](https://pypi.org/project/runmedic/)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-**English** · [Русский](README.ru.md)
+**English** · [Русский](https://github.com/vincere-mori/runmedic/blob/main/README.ru.md)
 
 </div>
 
@@ -40,7 +41,7 @@ Found: 1 critical, 1 warning
      4. Resume from a checkpoint before the blow-up instead of restarting from scratch
 ```
 
-That run is a real PyTorch training from [examples/](examples/broken_training.py) with a broken LR schedule, and the report points straight at it.
+That run is a real PyTorch training from [examples/](https://github.com/vincere-mori/runmedic/blob/main/examples/broken_training.py) with a broken LR schedule, and the report points straight at it.
 
 With the agent skill, your coding agent goes one step further: it runs the diagnosis, opens your training code, finds the line that causes it, proposes a minimal diff and checks the next run.
 
@@ -81,13 +82,13 @@ A directory can mix them: runmedic finds every run inside and diagnoses each one
 ## Install
 
 ```bash
-pip install git+https://github.com/vincere-mori/runmedic
+pip install runmedic
 ```
 
 or run without installing:
 
 ```bash
-uvx --from git+https://github.com/vincere-mori/runmedic runmedic diagnose runs/
+uvx runmedic diagnose runs/
 ```
 
 Zero dependencies, Python 3.10+.
@@ -104,7 +105,7 @@ runmedic series runs/exp1                   # which series were found and how th
 
 ## Agent skill
 
-The skill teaches a coding agent the whole loop: find the logs, run runmedic, read the training code, explain the cause with evidence, propose a minimal fix, verify on the next run. It ships with a [playbook](plugins/runmedic/skills/runmedic/references/playbook.md) of confirmations and fixes per check, and a logging snippet for runs that lack the metrics.
+The skill teaches a coding agent the whole loop: find the logs, run runmedic, read the training code, explain the cause with evidence, propose a minimal fix, verify on the next run. It ships with a [playbook](https://github.com/vincere-mori/runmedic/blob/main/plugins/runmedic/skills/runmedic/references/playbook.md) of confirmations and fixes per check, and a logging snippet for runs that lack the metrics.
 
 **Install in one line.** Send this to your agent:
 
