@@ -1,0 +1,12 @@
+{
+  "name": "runmedic",
+  "description": "Training run doctor: NaNs, divergence, overfitting, idle GPUs, memory leaks, from TensorBoard/MLflow/W&B/stdout logs",
+  "version": "0.1.0",
+  "author": {
+    "name": "vincere-mori"
+  },
+  "homepage": "https://github.com/vincere-mori/runmedic",
+  "repository": "https://github.com/vincere-mori/runmedic",
+  "license": "MIT",
+  "keywords": ["machine-learning", "pytorch", "training", "debugging", "tensorboard", "mlflow", "wandb"]
+}

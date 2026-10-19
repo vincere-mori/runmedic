@@ -1,0 +1,14 @@
+{
+  "name": "runmedic",
+  "description": "Diagnose ML training runs from their logs and fix the code",
+  "owner": {
+    "name": "vincere-mori"
+  },
+  "plugins": [
+    {
+      "name": "runmedic",
+      "source": "./plugins/runmedic",
+      "description": "Training run doctor: NaNs, divergence, overfitting, idle GPUs, memory leaks, from TensorBoard/MLflow/W&B/stdout logs"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e . pytest tensorboard ruff
+      - run: ruff check . && ruff format --check .
+      - run: pytest -q
+      - name: Demo logs still diagnose as expected
+        run: |
+          if runmedic diagnose examples/logs/nan --fail-on critical; then echo "expected a critical finding"; exit 1; fi
+          runmedic diagnose examples/logs/healthy --fail-on info

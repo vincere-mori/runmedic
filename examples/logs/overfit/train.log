@@ -1,0 +1,900 @@
+step 0 train/loss=0.68422 train/lr=4.17769e-05
+step 1 train/loss=0.716271 train/lr=4.70943e-05
+step 2 train/loss=0.694657 train/lr=5.5913e-05
+step 3 train/loss=0.691078 train/lr=6.81677e-05
+step 4 train/loss=0.691061 train/lr=8.37675e-05
+step 5 val/loss=0.688101
+step 5 train/loss=0.673812 train/lr=0.000102597
+step 6 train/loss=0.683401 train/lr=0.000124517
+step 7 train/loss=0.659078 train/lr=0.000149365
+step 8 train/loss=0.643407 train/lr=0.000176957
+step 9 train/loss=0.632339 train/lr=0.000207088
+step 10 val/loss=0.673263
+step 10 train/loss=0.631467 train/lr=0.000239537
+step 11 train/loss=0.619834 train/lr=0.000274062
+step 12 train/loss=0.608435 train/lr=0.000310407
+step 13 train/loss=0.584488 train/lr=0.000348305
+step 14 train/loss=0.599564 train/lr=0.000387473
+step 15 val/loss=0.644871
+step 15 train/loss=0.554895 train/lr=0.000427623
+step 16 train/loss=0.54575 train/lr=0.000468457
+step 17 train/loss=0.547155 train/lr=0.000509672
+step 18 train/loss=0.577326 train/lr=0.000550964
+step 19 train/loss=0.533848 train/lr=0.000592027
+step 20 val/loss=0.653638
+step 20 train/loss=0.601439 train/lr=0.000632556
+step 21 train/loss=0.516076 train/lr=0.000672252
+step 22 train/loss=0.470135 train/lr=0.000710821
+step 23 train/loss=0.435567 train/lr=0.000747977
+step 24 train/loss=0.478309 train/lr=0.000783445
+step 25 val/loss=0.693928
+step 25 train/loss=0.433303 train/lr=0.000816962
+step 26 train/loss=0.556819 train/lr=0.000848281
+step 27 train/loss=0.393383 train/lr=0.00087717
+step 28 train/loss=0.377259 train/lr=0.000903414
+step 29 train/loss=0.576054 train/lr=0.00092682
+step 30 val/loss=0.717004
+step 30 train/loss=0.443969 train/lr=0.000947213
+step 31 train/loss=0.305592 train/lr=0.000964444
+step 32 train/loss=0.474615 train/lr=0.000978384
+step 33 train/loss=0.357078 train/lr=0.00098893
+step 34 train/loss=0.426265 train/lr=0.000996005
+step 35 val/loss=0.732371
+step 35 train/loss=0.324492 train/lr=0.000999556
+step 36 train/loss=0.340259 train/lr=0.000999999
+step 37 train/loss=0.272696 train/lr=0.000999989
+step 38 train/loss=0.286047 train/lr=0.00099997
+step 39 train/loss=0.304419 train/lr=0.00099994
+step 40 val/loss=0.80363
+step 40 train/loss=0.23624 train/lr=0.000999902
+step 41 train/loss=0.242904 train/lr=0.000999853
+step 42 train/loss=0.299047 train/lr=0.000999795
+step 43 train/loss=0.242456 train/lr=0.000999727
+step 44 train/loss=0.305081 train/lr=0.000999649
+step 45 val/loss=0.864636
+step 45 train/loss=0.244068 train/lr=0.000999561
+step 46 train/loss=0.137846 train/lr=0.000999464
+step 47 train/loss=0.208167 train/lr=0.000999357
+step 48 train/loss=0.187281 train/lr=0.000999241
+step 49 train/loss=0.229305 train/lr=0.000999114
+step 50 val/loss=0.886206
+step 50 train/loss=0.166101 train/lr=0.000998978
+step 51 train/loss=0.157616 train/lr=0.000998833
+step 52 train/loss=0.172115 train/lr=0.000998677
+step 53 train/loss=0.12187 train/lr=0.000998512
+step 54 train/loss=0.200619 train/lr=0.000998337
+step 55 val/loss=1.05135
+step 55 train/loss=0.129333 train/lr=0.000998153
+step 56 train/loss=0.0868106 train/lr=0.000997959
+step 57 train/loss=0.11246 train/lr=0.000997755
+step 58 train/loss=0.165315 train/lr=0.000997541
+step 59 train/loss=0.0913837 train/lr=0.000997318
+step 60 val/loss=1.16544
+step 60 train/loss=0.0769635 train/lr=0.000997085
+step 61 train/loss=0.213822 train/lr=0.000996843
+step 62 train/loss=0.0648743 train/lr=0.000996591
+step 63 train/loss=0.0699222 train/lr=0.000996329
+step 64 train/loss=0.246076 train/lr=0.000996057
+step 65 val/loss=1.07973
+step 65 train/loss=0.0710081 train/lr=0.000995776
+step 66 train/loss=0.0875931 train/lr=0.000995485
+step 67 train/loss=0.102142 train/lr=0.000995185
+step 68 train/loss=0.0882511 train/lr=0.000994875
+step 69 train/loss=0.0527321 train/lr=0.000994555
+step 70 val/loss=1.16382
+step 70 train/loss=0.065678 train/lr=0.000994226
+step 71 train/loss=0.0417363 train/lr=0.000993887
+step 72 train/loss=0.0759176 train/lr=0.000993539
+step 73 train/loss=0.0527597 train/lr=0.000993181
+step 74 train/loss=0.0432999 train/lr=0.000992813
+step 75 val/loss=1.32845
+step 75 train/loss=0.0531468 train/lr=0.000992436
+step 76 train/loss=0.0562012 train/lr=0.000992049
+step 77 train/loss=0.0523046 train/lr=0.000991653
+step 78 train/loss=0.0311855 train/lr=0.000991247
+step 79 train/loss=0.024615 train/lr=0.000990831
+step 80 val/loss=1.30345
+step 80 train/loss=0.0426164 train/lr=0.000990406
+step 81 train/loss=0.0410659 train/lr=0.000989972
+step 82 train/loss=0.0247083 train/lr=0.000989527
+step 83 train/loss=0.0297497 train/lr=0.000989074
+step 84 train/loss=0.0391466 train/lr=0.000988611
+step 85 val/loss=1.38136
+step 85 train/loss=0.0235733 train/lr=0.000988138
+step 86 train/loss=0.0225811 train/lr=0.000987656
+step 87 train/loss=0.0160835 train/lr=0.000987164
+step 88 train/loss=0.0173146 train/lr=0.000986663
+step 89 train/loss=0.0182138 train/lr=0.000986153
+step 90 val/loss=1.36616
+step 90 train/loss=0.0197235 train/lr=0.000985633
+step 91 train/loss=0.020825 train/lr=0.000985103
+step 92 train/loss=0.0136812 train/lr=0.000984565
+step 93 train/loss=0.0147453 train/lr=0.000984016
+step 94 train/loss=0.00847767 train/lr=0.000983459
+step 95 val/loss=1.4507
+step 95 train/loss=0.0104438 train/lr=0.000982892
+step 96 train/loss=0.0127226 train/lr=0.000982315
+step 97 train/loss=0.011444 train/lr=0.000981729
+step 98 train/loss=0.0145217 train/lr=0.000981134
+step 99 train/loss=0.0105379 train/lr=0.00098053
+step 100 val/loss=1.4854
+step 100 train/loss=0.00717663 train/lr=0.000979916
+step 101 train/loss=0.00893279 train/lr=0.000979292
+step 102 train/loss=0.0092866 train/lr=0.00097866
+step 103 train/loss=0.00904655 train/lr=0.000978018
+step 104 train/loss=0.00906273 train/lr=0.000977367
+step 105 val/loss=1.50975
+step 105 train/loss=0.00750114 train/lr=0.000976706
+step 106 train/loss=0.00720615 train/lr=0.000976037
+step 107 train/loss=0.00871036 train/lr=0.000975358
+step 108 train/loss=0.0063971 train/lr=0.00097467
+step 109 train/loss=0.00647676 train/lr=0.000973972
+step 110 val/loss=1.55755
+step 110 train/loss=0.00634313 train/lr=0.000973265
+step 111 train/loss=0.00647619 train/lr=0.00097255
+step 112 train/loss=0.00599264 train/lr=0.000971825
+step 113 train/loss=0.00612249 train/lr=0.00097109
+step 114 train/loss=0.00812192 train/lr=0.000970347
+step 115 val/loss=1.5795
+step 115 train/loss=0.00501788 train/lr=0.000969595
+step 116 train/loss=0.00586415 train/lr=0.000968833
+step 117 train/loss=0.00624988 train/lr=0.000968062
+step 118 train/loss=0.00525328 train/lr=0.000967282
+step 119 train/loss=0.00582733 train/lr=0.000966493
+step 120 val/loss=1.59621
+step 120 train/loss=0.00542208 train/lr=0.000965695
+step 121 train/loss=0.00563146 train/lr=0.000964888
+step 122 train/loss=0.00416691 train/lr=0.000964072
+step 123 train/loss=0.00473712 train/lr=0.000963247
+step 124 train/loss=0.00585532 train/lr=0.000962413
+step 125 val/loss=1.62318
+step 125 train/loss=0.00473095 train/lr=0.00096157
+step 126 train/loss=0.00428878 train/lr=0.000960718
+step 127 train/loss=0.00467921 train/lr=0.000959857
+step 128 train/loss=0.00411581 train/lr=0.000958987
+step 129 train/loss=0.0059953 train/lr=0.000958108
+step 130 val/loss=1.64726
+step 130 train/loss=0.00451434 train/lr=0.00095722
+step 131 train/loss=0.00396743 train/lr=0.000956323
+step 132 train/loss=0.00439265 train/lr=0.000955418
+step 133 train/loss=0.00443177 train/lr=0.000954503
+step 134 train/loss=0.00393565 train/lr=0.00095358
+step 135 val/loss=1.65617
+step 135 train/loss=0.00392757 train/lr=0.000952648
+step 136 train/loss=0.00381914 train/lr=0.000951707
+step 137 train/loss=0.00450801 train/lr=0.000950758
+step 138 train/loss=0.00356299 train/lr=0.000949799
+step 139 train/loss=0.00388677 train/lr=0.000948832
+step 140 val/loss=1.6747
+step 140 train/loss=0.00373239 train/lr=0.000947856
+step 141 train/loss=0.00383448 train/lr=0.000946871
+step 142 train/loss=0.00358592 train/lr=0.000945878
+step 143 train/loss=0.00372437 train/lr=0.000944876
+step 144 train/loss=0.00329658 train/lr=0.000943866
+step 145 val/loss=1.69319
+step 145 train/loss=0.00380511 train/lr=0.000942846
+step 146 train/loss=0.00235613 train/lr=0.000941819
+step 147 train/loss=0.0038458 train/lr=0.000940782
+step 148 train/loss=0.00381453 train/lr=0.000939737
+step 149 train/loss=0.00327188 train/lr=0.000938684
+step 150 val/loss=1.70947
+step 150 train/loss=0.00334102 train/lr=0.000937621
+step 151 train/loss=0.00336512 train/lr=0.000936551
+step 152 train/loss=0.00312056 train/lr=0.000935472
+step 153 train/loss=0.00286223 train/lr=0.000934384
+step 154 train/loss=0.00330316 train/lr=0.000933288
+step 155 val/loss=1.72029
+step 155 train/loss=0.00280989 train/lr=0.000932184
+step 156 train/loss=0.00281184 train/lr=0.000931071
+step 157 train/loss=0.00240057 train/lr=0.00092995
+step 158 train/loss=0.00306738 train/lr=0.00092882
+step 159 train/loss=0.00436882 train/lr=0.000927682
+step 160 val/loss=1.73453
+step 160 train/loss=0.00260077 train/lr=0.000926536
+step 161 train/loss=0.00284662 train/lr=0.000925382
+step 162 train/loss=0.00296124 train/lr=0.000924219
+step 163 train/loss=0.00263271 train/lr=0.000923048
+step 164 train/loss=0.00318451 train/lr=0.000921869
+step 165 val/loss=1.74633
+step 165 train/loss=0.0029127 train/lr=0.000920681
+step 166 train/loss=0.00274328 train/lr=0.000919486
+step 167 train/loss=0.00253648 train/lr=0.000918282
+step 168 train/loss=0.00238422 train/lr=0.00091707
+step 169 train/loss=0.00277887 train/lr=0.00091585
+step 170 val/loss=1.75849
+step 170 train/loss=0.00299987 train/lr=0.000914622
+step 171 train/loss=0.00233281 train/lr=0.000913386
+step 172 train/loss=0.00275833 train/lr=0.000912141
+step 173 train/loss=0.00251089 train/lr=0.000910889
+step 174 train/loss=0.00176351 train/lr=0.000909629
+step 175 val/loss=1.77259
+step 175 train/loss=0.00253263 train/lr=0.000908361
+step 176 train/loss=0.00255438 train/lr=0.000907085
+step 177 train/loss=0.00219843 train/lr=0.000905801
+step 178 train/loss=0.00217582 train/lr=0.000904509
+step 179 train/loss=0.00246715 train/lr=0.000903209
+step 180 val/loss=1.78497
+step 180 train/loss=0.00216006 train/lr=0.000901902
+step 181 train/loss=0.00217431 train/lr=0.000900586
+step 182 train/loss=0.00202434 train/lr=0.000899263
+step 183 train/loss=0.0027922 train/lr=0.000897932
+step 184 train/loss=0.00212708 train/lr=0.000896593
+step 185 val/loss=1.79877
+step 185 train/loss=0.00224642 train/lr=0.000895247
+step 186 train/loss=0.00248832 train/lr=0.000893893
+step 187 train/loss=0.00228121 train/lr=0.000892531
+step 188 train/loss=0.0017503 train/lr=0.000891162
+step 189 train/loss=0.00201174 train/lr=0.000889785
+step 190 val/loss=1.80626
+step 190 train/loss=0.0021383 train/lr=0.0008884
+step 191 train/loss=0.00172921 train/lr=0.000887008
+step 192 train/loss=0.00207663 train/lr=0.000885608
+step 193 train/loss=0.00217603 train/lr=0.000884201
+step 194 train/loss=0.00218285 train/lr=0.000882786
+step 195 val/loss=1.81766
+step 195 train/loss=0.00214541 train/lr=0.000881364
+step 196 train/loss=0.00211499 train/lr=0.000879935
+step 197 train/loss=0.00208725 train/lr=0.000878498
+step 198 train/loss=0.00197563 train/lr=0.000877054
+step 199 train/loss=0.00129202 train/lr=0.000875602
+step 200 val/loss=1.82897
+step 200 train/loss=0.00185275 train/lr=0.000874143
+step 201 train/loss=0.00202841 train/lr=0.000872677
+step 202 train/loss=0.0016028 train/lr=0.000871204
+step 203 train/loss=0.00153987 train/lr=0.000869723
+step 204 train/loss=0.00263664 train/lr=0.000868236
+step 205 val/loss=1.83887
+step 205 train/loss=0.00185148 train/lr=0.000866741
+step 206 train/loss=0.00134055 train/lr=0.000865239
+step 207 train/loss=0.0020302 train/lr=0.000863729
+step 208 train/loss=0.00199602 train/lr=0.000862213
+step 209 train/loss=0.00173127 train/lr=0.00086069
+step 210 val/loss=1.85093
+step 210 train/loss=0.00161623 train/lr=0.00085916
+step 211 train/loss=0.00192922 train/lr=0.000857622
+step 212 train/loss=0.00188107 train/lr=0.000856078
+step 213 train/loss=0.00155861 train/lr=0.000854527
+step 214 train/loss=0.0016239 train/lr=0.000852969
+step 215 val/loss=1.85969
+step 215 train/loss=0.00118601 train/lr=0.000851404
+step 216 train/loss=0.00225147 train/lr=0.000849832
+step 217 train/loss=0.00168086 train/lr=0.000848254
+step 218 train/loss=0.00116897 train/lr=0.000846668
+step 219 train/loss=0.00218489 train/lr=0.000845076
+step 220 val/loss=1.86627
+step 220 train/loss=0.00162938 train/lr=0.000843478
+step 221 train/loss=0.00189595 train/lr=0.000841872
+step 222 train/loss=0.00161047 train/lr=0.00084026
+step 223 train/loss=0.00162101 train/lr=0.000838641
+step 224 train/loss=0.00104428 train/lr=0.000837016
+step 225 val/loss=1.87613
+step 225 train/loss=0.00137823 train/lr=0.000835384
+step 226 train/loss=0.00157568 train/lr=0.000833746
+step 227 train/loss=0.00139802 train/lr=0.000832101
+step 228 train/loss=0.00155939 train/lr=0.00083045
+step 229 train/loss=0.00186183 train/lr=0.000828792
+step 230 val/loss=1.88456
+step 230 train/loss=0.00142434 train/lr=0.000827128
+step 231 train/loss=0.00142782 train/lr=0.000825458
+step 232 train/loss=0.00154254 train/lr=0.000823781
+step 233 train/loss=0.00152973 train/lr=0.000822098
+step 234 train/loss=0.00143204 train/lr=0.000820408
+step 235 val/loss=1.89317
+step 235 train/loss=0.00127179 train/lr=0.000818713
+step 236 train/loss=0.00127158 train/lr=0.000817011
+step 237 train/loss=0.0015532 train/lr=0.000815303
+step 238 train/loss=0.00153374 train/lr=0.000813589
+step 239 train/loss=0.00151571 train/lr=0.000811869
+step 240 val/loss=1.90145
+step 240 train/loss=0.00137245 train/lr=0.000810143
+step 241 train/loss=0.00114331 train/lr=0.00080841
+step 242 train/loss=0.00129829 train/lr=0.000806672
+step 243 train/loss=0.00156398 train/lr=0.000804928
+step 244 train/loss=0.00156086 train/lr=0.000803178
+step 245 val/loss=1.90876
+step 245 train/loss=0.00143968 train/lr=0.000801422
+step 246 train/loss=0.00154427 train/lr=0.00079966
+step 247 train/loss=0.00108784 train/lr=0.000797892
+step 248 train/loss=0.00118108 train/lr=0.000796118
+step 249 train/loss=0.00144057 train/lr=0.000794339
+step 250 val/loss=1.9174
+step 250 train/loss=0.00147315 train/lr=0.000792554
+step 251 train/loss=0.00134269 train/lr=0.000790763
+step 252 train/loss=0.000947549 train/lr=0.000788967
+step 253 train/loss=0.00141047 train/lr=0.000787165
+step 254 train/loss=0.00124609 train/lr=0.000785358
+step 255 val/loss=1.92677
+step 255 train/loss=0.00102062 train/lr=0.000783545
+step 256 train/loss=0.00103358 train/lr=0.000781726
+step 257 train/loss=0.00152121 train/lr=0.000779902
+step 258 train/loss=0.00142767 train/lr=0.000778072
+step 259 train/loss=0.00122462 train/lr=0.000776237
+step 260 val/loss=1.93543
+step 260 train/loss=0.00117037 train/lr=0.000774397
+step 261 train/loss=0.00122875 train/lr=0.000772552
+step 262 train/loss=0.00161529 train/lr=0.000770701
+step 263 train/loss=0.000916024 train/lr=0.000768844
+step 264 train/loss=0.00109291 train/lr=0.000766983
+step 265 val/loss=1.93975
+step 265 train/loss=0.00117457 train/lr=0.000765116
+step 266 train/loss=0.00121669 train/lr=0.000763245
+step 267 train/loss=0.00115955 train/lr=0.000761368
+step 268 train/loss=0.00121567 train/lr=0.000759486
+step 269 train/loss=0.00104127 train/lr=0.000757599
+step 270 val/loss=1.94828
+step 270 train/loss=0.00131521 train/lr=0.000755707
+step 271 train/loss=0.00123552 train/lr=0.00075381
+step 272 train/loss=0.00101915 train/lr=0.000751908
+step 273 train/loss=0.00098456 train/lr=0.000750001
+step 274 train/loss=0.00112442 train/lr=0.000748089
+step 275 val/loss=1.95448
+step 275 train/loss=0.000916358 train/lr=0.000746173
+step 276 train/loss=0.000967347 train/lr=0.000744252
+step 277 train/loss=0.00120273 train/lr=0.000742325
+step 278 train/loss=0.00133788 train/lr=0.000740395
+step 279 train/loss=0.00108222 train/lr=0.000738459
+step 280 val/loss=1.9621
+step 280 train/loss=0.00113264 train/lr=0.000736519
+step 281 train/loss=0.000984703 train/lr=0.000734575
+step 282 train/loss=0.000967684 train/lr=0.000732625
+step 283 train/loss=0.00125418 train/lr=0.000730672
+step 284 train/loss=0.00101921 train/lr=0.000728713
+step 285 val/loss=1.96709
+step 285 train/loss=0.0011894 train/lr=0.000726751
+step 286 train/loss=0.00108741 train/lr=0.000724784
+step 287 train/loss=0.000955104 train/lr=0.000722812
+step 288 train/loss=0.000853315 train/lr=0.000720836
+step 289 train/loss=0.00118802 train/lr=0.000718856
+step 290 val/loss=1.9721
+step 290 train/loss=0.0010502 train/lr=0.000716872
+step 291 train/loss=0.00101812 train/lr=0.000714884
+step 292 train/loss=0.00093704 train/lr=0.000712891
+step 293 train/loss=0.00106831 train/lr=0.000710894
+step 294 train/loss=0.00100091 train/lr=0.000708893
+step 295 val/loss=1.97962
+step 295 train/loss=0.000738313 train/lr=0.000706888
+step 296 train/loss=0.00123677 train/lr=0.000704879
+step 297 train/loss=0.000970267 train/lr=0.000702866
+step 298 train/loss=0.00103212 train/lr=0.000700849
+step 299 train/loss=0.000973851 train/lr=0.000698828
+step 300 val/loss=1.98543
+step 300 train/loss=0.00083944 train/lr=0.000696803
+step 301 train/loss=0.00131767 train/lr=0.000694775
+step 302 train/loss=0.000863164 train/lr=0.000692742
+step 303 train/loss=0.000863643 train/lr=0.000690706
+step 304 train/loss=0.000933779 train/lr=0.000688666
+step 305 val/loss=1.99212
+step 305 train/loss=0.000972397 train/lr=0.000686623
+step 306 train/loss=0.00102732 train/lr=0.000684576
+step 307 train/loss=0.000950665 train/lr=0.000682525
+step 308 train/loss=0.000852466 train/lr=0.000680471
+step 309 train/loss=0.000902177 train/lr=0.000678413
+step 310 val/loss=1.9981
+step 310 train/loss=0.000795122 train/lr=0.000676352
+step 311 train/loss=0.000946474 train/lr=0.000674287
+step 312 train/loss=0.00117062 train/lr=0.000672219
+step 313 train/loss=0.000786116 train/lr=0.000670148
+step 314 train/loss=0.000898937 train/lr=0.000668073
+step 315 val/loss=2.0025
+step 315 train/loss=0.00100682 train/lr=0.000665995
+step 316 train/loss=0.000748483 train/lr=0.000663914
+step 317 train/loss=0.00100572 train/lr=0.00066183
+step 318 train/loss=0.000941004 train/lr=0.000659742
+step 319 train/loss=0.000744974 train/lr=0.000657652
+step 320 val/loss=2.00865
+step 320 train/loss=0.00074639 train/lr=0.000655558
+step 321 train/loss=0.000830983 train/lr=0.000653461
+step 322 train/loss=0.000870392 train/lr=0.000651361
+step 323 train/loss=0.000964529 train/lr=0.000649259
+step 324 train/loss=0.00101553 train/lr=0.000647153
+step 325 val/loss=2.01433
+step 325 train/loss=0.00068849 train/lr=0.000645045
+step 326 train/loss=0.00101817 train/lr=0.000642934
+step 327 train/loss=0.00100987 train/lr=0.00064082
+step 328 train/loss=0.000768001 train/lr=0.000638703
+step 329 train/loss=0.000785436 train/lr=0.000636583
+step 330 val/loss=2.0193
+step 330 train/loss=0.000819833 train/lr=0.000634461
+step 331 train/loss=0.000785683 train/lr=0.000632337
+step 332 train/loss=0.000788386 train/lr=0.000630209
+step 333 train/loss=0.00094609 train/lr=0.00062808
+step 334 train/loss=0.000877069 train/lr=0.000625947
+step 335 val/loss=2.02473
+step 335 train/loss=0.00106519 train/lr=0.000623813
+step 336 train/loss=0.000820687 train/lr=0.000621675
+step 337 train/loss=0.000638396 train/lr=0.000619536
+step 338 train/loss=0.000766623 train/lr=0.000617394
+step 339 train/loss=0.000832305 train/lr=0.00061525
+step 340 val/loss=2.02828
+step 340 train/loss=0.000852721 train/lr=0.000613104
+step 341 train/loss=0.000712882 train/lr=0.000610955
+step 342 train/loss=0.000701187 train/lr=0.000608804
+step 343 train/loss=0.00077319 train/lr=0.000606651
+step 344 train/loss=0.00107755 train/lr=0.000604496
+step 345 val/loss=2.03396
+step 345 train/loss=0.000780251 train/lr=0.00060234
+step 346 train/loss=0.000815445 train/lr=0.000600181
+step 347 train/loss=0.000671986 train/lr=0.00059802
+step 348 train/loss=0.000899151 train/lr=0.000595857
+step 349 train/loss=0.000791733 train/lr=0.000593692
+step 350 val/loss=2.04
+step 350 train/loss=0.000715717 train/lr=0.000591526
+step 351 train/loss=0.000777362 train/lr=0.000589358
+step 352 train/loss=0.000711445 train/lr=0.000587188
+step 353 train/loss=0.000794914 train/lr=0.000585016
+step 354 train/loss=0.000938997 train/lr=0.000582843
+step 355 val/loss=2.04312
+step 355 train/loss=0.00076356 train/lr=0.000580668
+step 356 train/loss=0.00080791 train/lr=0.000578491
+step 357 train/loss=0.000665228 train/lr=0.000576313
+step 358 train/loss=0.000800212 train/lr=0.000574134
+step 359 train/loss=0.000757324 train/lr=0.000571953
+step 360 val/loss=2.04799
+step 360 train/loss=0.000786803 train/lr=0.00056977
+step 361 train/loss=0.000849305 train/lr=0.000567586
+step 362 train/loss=0.000769936 train/lr=0.000565401
+step 363 train/loss=0.000539574 train/lr=0.000563215
+step 364 train/loss=0.00080386 train/lr=0.000561028
+step 365 val/loss=2.05267
+step 365 train/loss=0.000716282 train/lr=0.000558839
+step 366 train/loss=0.000785703 train/lr=0.000556649
+step 367 train/loss=0.000811143 train/lr=0.000554458
+step 368 train/loss=0.000676808 train/lr=0.000552266
+step 369 train/loss=0.000642924 train/lr=0.000550073
+step 370 val/loss=2.05616
+step 370 train/loss=0.000753164 train/lr=0.000547879
+step 371 train/loss=0.000639598 train/lr=0.000545684
+step 372 train/loss=0.000659491 train/lr=0.000543488
+step 373 train/loss=0.000756357 train/lr=0.000541292
+step 374 train/loss=0.000817271 train/lr=0.000539094
+step 375 val/loss=2.05944
+step 375 train/loss=0.000765038 train/lr=0.000536896
+step 376 train/loss=0.000747335 train/lr=0.000534697
+step 377 train/loss=0.000842924 train/lr=0.000532497
+step 378 train/loss=0.000466291 train/lr=0.000530297
+step 379 train/loss=0.00072051 train/lr=0.000528096
+step 380 val/loss=2.06442
+step 380 train/loss=0.000785393 train/lr=0.000525895
+step 381 train/loss=0.000643599 train/lr=0.000523693
+step 382 train/loss=0.000671277 train/lr=0.00052149
+step 383 train/loss=0.00080759 train/lr=0.000519288
+step 384 train/loss=0.00050941 train/lr=0.000517084
+step 385 val/loss=2.06783
+step 385 train/loss=0.000535248 train/lr=0.000514881
+step 386 train/loss=0.000515052 train/lr=0.000512677
+step 387 train/loss=0.000866825 train/lr=0.000510473
+step 388 train/loss=0.000874913 train/lr=0.000508269
+step 389 train/loss=0.000604093 train/lr=0.000506065
+step 390 val/loss=2.07122
+step 390 train/loss=0.000805267 train/lr=0.00050386
+step 391 train/loss=0.000720693 train/lr=0.000501655
+step 392 train/loss=0.000547464 train/lr=0.000499451
+step 393 train/loss=0.000556365 train/lr=0.000497246
+step 394 train/loss=0.000762908 train/lr=0.000495042
+step 395 val/loss=2.0757
+step 395 train/loss=0.000659693 train/lr=0.000492837
+step 396 train/loss=0.000625951 train/lr=0.000490633
+step 397 train/loss=0.000729318 train/lr=0.000488429
+step 398 train/loss=0.000649447 train/lr=0.000486225
+step 399 train/loss=0.000652877 train/lr=0.000484021
+step 400 val/loss=2.08001
+step 400 train/loss=0.00054151 train/lr=0.000481818
+step 401 train/loss=0.000733757 train/lr=0.000479615
+step 402 train/loss=0.000640945 train/lr=0.000477412
+step 403 train/loss=0.000741628 train/lr=0.00047521
+step 404 train/loss=0.000589247 train/lr=0.000473009
+step 405 val/loss=2.08289
+step 405 train/loss=0.000597275 train/lr=0.000470807
+step 406 train/loss=0.000651609 train/lr=0.000468607
+step 407 train/loss=0.000685894 train/lr=0.000466407
+step 408 train/loss=0.000666027 train/lr=0.000464208
+step 409 train/loss=0.000604966 train/lr=0.000462009
+step 410 val/loss=2.0859
+step 410 train/loss=0.000571697 train/lr=0.000459811
+step 411 train/loss=0.000759123 train/lr=0.000457614
+step 412 train/loss=0.000755748 train/lr=0.000455418
+step 413 train/loss=0.000544962 train/lr=0.000453222
+step 414 train/loss=0.000505244 train/lr=0.000451028
+step 415 val/loss=2.08827
+step 415 train/loss=0.000557263 train/lr=0.000448834
+step 416 train/loss=0.000667088 train/lr=0.000446642
+step 417 train/loss=0.000631095 train/lr=0.00044445
+step 418 train/loss=0.000619832 train/lr=0.00044226
+step 419 train/loss=0.000666979 train/lr=0.000440071
+step 420 val/loss=2.09221
+step 420 train/loss=0.000581532 train/lr=0.000437882
+step 421 train/loss=0.000701952 train/lr=0.000435696
+step 422 train/loss=0.000524614 train/lr=0.00043351
+step 423 train/loss=0.000667604 train/lr=0.000431325
+step 424 train/loss=0.0006093 train/lr=0.000429142
+step 425 val/loss=2.09634
+step 425 train/loss=0.000535335 train/lr=0.000426961
+step 426 train/loss=0.000675511 train/lr=0.000424781
+step 427 train/loss=0.000552495 train/lr=0.000422602
+step 428 train/loss=0.000646337 train/lr=0.000420424
+step 429 train/loss=0.000652223 train/lr=0.000418249
+step 430 val/loss=2.0997
+step 430 train/loss=0.000554339 train/lr=0.000416075
+step 431 train/loss=0.000773358 train/lr=0.000413902
+step 432 train/loss=0.000653638 train/lr=0.000411731
+step 433 train/loss=0.000439166 train/lr=0.000409562
+step 434 train/loss=0.000584307 train/lr=0.000407395
+step 435 val/loss=2.10236
+step 435 train/loss=0.000597632 train/lr=0.000405229
+step 436 train/loss=0.000694248 train/lr=0.000403065
+step 437 train/loss=0.000491093 train/lr=0.000400904
+step 438 train/loss=0.00062207 train/lr=0.000398744
+step 439 train/loss=0.000560225 train/lr=0.000396586
+step 440 val/loss=2.10409
+step 440 train/loss=0.000609835 train/lr=0.00039443
+step 441 train/loss=0.000546305 train/lr=0.000392276
+step 442 train/loss=0.00061946 train/lr=0.000390124
+step 443 train/loss=0.000617458 train/lr=0.000387974
+step 444 train/loss=0.000526251 train/lr=0.000385827
+step 445 val/loss=2.10728
+step 445 train/loss=0.000631456 train/lr=0.000383682
+step 446 train/loss=0.000719629 train/lr=0.000381539
+step 447 train/loss=0.000593498 train/lr=0.000379398
+step 448 train/loss=0.000492452 train/lr=0.00037726
+step 449 train/loss=0.000416413 train/lr=0.000375124
+step 450 val/loss=2.11038
+step 450 train/loss=0.000637882 train/lr=0.00037299
+step 451 train/loss=0.00042118 train/lr=0.000370859
+step 452 train/loss=0.000693176 train/lr=0.000368731
+step 453 train/loss=0.000616417 train/lr=0.000366605
+step 454 train/loss=0.000471232 train/lr=0.000364481
+step 455 val/loss=2.11299
+step 455 train/loss=0.000577851 train/lr=0.00036236
+step 456 train/loss=0.000542425 train/lr=0.000360242
+step 457 train/loss=0.000546881 train/lr=0.000358127
+step 458 train/loss=0.000543299 train/lr=0.000356014
+step 459 train/loss=0.000657625 train/lr=0.000353905
+step 460 val/loss=2.11573
+step 460 train/loss=0.000521264 train/lr=0.000351798
+step 461 train/loss=0.000547827 train/lr=0.000349694
+step 462 train/loss=0.000618834 train/lr=0.000347592
+step 463 train/loss=0.000555889 train/lr=0.000345494
+step 464 train/loss=0.000568761 train/lr=0.000343399
+step 465 val/loss=2.11825
+step 465 train/loss=0.000461368 train/lr=0.000341307
+step 466 train/loss=0.000678987 train/lr=0.000339218
+step 467 train/loss=0.000515363 train/lr=0.000337132
+step 468 train/loss=0.000533853 train/lr=0.000335049
+step 469 train/loss=0.0006095 train/lr=0.000332969
+step 470 val/loss=2.12054
+step 470 train/loss=0.000531808 train/lr=0.000330893
+step 471 train/loss=0.000491385 train/lr=0.00032882
+step 472 train/loss=0.000579845 train/lr=0.00032675
+step 473 train/loss=0.000598308 train/lr=0.000324684
+step 474 train/loss=0.000555682 train/lr=0.000322621
+step 475 val/loss=2.12282
+step 475 train/loss=0.000545842 train/lr=0.000320561
+step 476 train/loss=0.000539116 train/lr=0.000318505
+step 477 train/loss=0.000554674 train/lr=0.000316453
+step 478 train/loss=0.000558436 train/lr=0.000314404
+step 479 train/loss=0.000524831 train/lr=0.000312359
+step 480 val/loss=2.12476
+step 480 train/loss=0.000471184 train/lr=0.000310317
+step 481 train/loss=0.000579148 train/lr=0.000308279
+step 482 train/loss=0.000609112 train/lr=0.000306245
+step 483 train/loss=0.000527341 train/lr=0.000304215
+step 484 train/loss=0.000505941 train/lr=0.000302188
+step 485 val/loss=2.12684
+step 485 train/loss=0.000524338 train/lr=0.000300165
+step 486 train/loss=0.000536227 train/lr=0.000298146
+step 487 train/loss=0.000584495 train/lr=0.000296131
+step 488 train/loss=0.000534519 train/lr=0.00029412
+step 489 train/loss=0.000484205 train/lr=0.000292113
+step 490 val/loss=2.1289
+step 490 train/loss=0.000685958 train/lr=0.00029011
+step 491 train/loss=0.000431105 train/lr=0.000288111
+step 492 train/loss=0.00056411 train/lr=0.000286116
+step 493 train/loss=0.000497757 train/lr=0.000284126
+step 494 train/loss=0.000453427 train/lr=0.000282139
+step 495 val/loss=2.13127
+step 495 train/loss=0.00053798 train/lr=0.000280157
+step 496 train/loss=0.000588087 train/lr=0.000278179
+step 497 train/loss=0.000503248 train/lr=0.000276205
+step 498 train/loss=0.000456816 train/lr=0.000274236
+step 499 train/loss=0.00055889 train/lr=0.000272271
+step 500 val/loss=2.13323
+step 500 train/loss=0.000629039 train/lr=0.000270311
+step 501 train/loss=0.000614221 train/lr=0.000268355
+step 502 train/loss=0.000402595 train/lr=0.000266403
+step 503 train/loss=0.000460705 train/lr=0.000264456
+step 504 train/loss=0.000502232 train/lr=0.000262514
+step 505 val/loss=2.13539
+step 505 train/loss=0.000530833 train/lr=0.000260576
+step 506 train/loss=0.000512526 train/lr=0.000258643
+step 507 train/loss=0.000571265 train/lr=0.000256715
+step 508 train/loss=0.000494249 train/lr=0.000254791
+step 509 train/loss=0.000470095 train/lr=0.000252872
+step 510 val/loss=2.13697
+step 510 train/loss=0.000642384 train/lr=0.000250958
+step 511 train/loss=0.000526716 train/lr=0.000249049
+step 512 train/loss=0.000487195 train/lr=0.000247145
+step 513 train/loss=0.000471953 train/lr=0.000245245
+step 514 train/loss=0.000415775 train/lr=0.000243351
+step 515 val/loss=2.13865
+step 515 train/loss=0.000443163 train/lr=0.000241461
+step 516 train/loss=0.000535948 train/lr=0.000239577
+step 517 train/loss=0.000524318 train/lr=0.000237697
+step 518 train/loss=0.0004788 train/lr=0.000235823
+step 519 train/loss=0.000602445 train/lr=0.000233954
+step 520 val/loss=2.14042
+step 520 train/loss=0.000613321 train/lr=0.00023209
+step 521 train/loss=0.000448417 train/lr=0.000230231
+step 522 train/loss=0.000427547 train/lr=0.000228377
+step 523 train/loss=0.000606204 train/lr=0.000226529
+step 524 train/loss=0.00041364 train/lr=0.000224686
+step 525 val/loss=2.14226
+step 525 train/loss=0.000398073 train/lr=0.000222848
+step 526 train/loss=0.000601999 train/lr=0.000221016
+step 527 train/loss=0.000597837 train/lr=0.000219189
+step 528 train/loss=0.000499693 train/lr=0.000217368
+step 529 train/loss=0.000387812 train/lr=0.000215552
+step 530 val/loss=2.1437
+step 530 train/loss=0.000486445 train/lr=0.000213742
+step 531 train/loss=0.000521951 train/lr=0.000211937
+step 532 train/loss=0.000503596 train/lr=0.000210138
+step 533 train/loss=0.000510411 train/lr=0.000208344
+step 534 train/loss=0.000475078 train/lr=0.000206557
+step 535 val/loss=2.14538
+step 535 train/loss=0.000473816 train/lr=0.000204774
+step 536 train/loss=0.000510327 train/lr=0.000202998
+step 537 train/loss=0.000391618 train/lr=0.000201227
+step 538 train/loss=0.000579596 train/lr=0.000199463
+step 539 train/loss=0.000551263 train/lr=0.000197704
+step 540 val/loss=2.14686
+step 540 train/loss=0.000443817 train/lr=0.000195951
+step 541 train/loss=0.000534304 train/lr=0.000194203
+step 542 train/loss=0.000493574 train/lr=0.000192462
+step 543 train/loss=0.000421485 train/lr=0.000190727
+step 544 train/loss=0.000622415 train/lr=0.000188998
+step 545 val/loss=2.14817
+step 545 train/loss=0.000508345 train/lr=0.000187274
+step 546 train/loss=0.000620263 train/lr=0.000185557
+step 547 train/loss=0.000396137 train/lr=0.000183846
+step 548 train/loss=0.000488822 train/lr=0.000182141
+step 549 train/loss=0.000428678 train/lr=0.000180443
+step 550 val/loss=2.14966
+step 550 train/loss=0.000544243 train/lr=0.00017875
+step 551 train/loss=0.000402102 train/lr=0.000177064
+step 552 train/loss=0.000481097 train/lr=0.000175384
+step 553 train/loss=0.000522609 train/lr=0.00017371
+step 554 train/loss=0.000502862 train/lr=0.000172043
+step 555 val/loss=2.15089
+step 555 train/loss=0.000350224 train/lr=0.000170382
+step 556 train/loss=0.000517094 train/lr=0.000168728
+step 557 train/loss=0.000641966 train/lr=0.00016708
+step 558 train/loss=0.000404926 train/lr=0.000165438
+step 559 train/loss=0.000537651 train/lr=0.000163803
+step 560 val/loss=2.15196
+step 560 train/loss=0.00055591 train/lr=0.000162174
+step 561 train/loss=0.000531394 train/lr=0.000160552
+step 562 train/loss=0.000396807 train/lr=0.000158937
+step 563 train/loss=0.000383391 train/lr=0.000157328
+step 564 train/loss=0.000590738 train/lr=0.000155726
+step 565 val/loss=2.15314
+step 565 train/loss=0.000453006 train/lr=0.000154131
+step 566 train/loss=0.000514683 train/lr=0.000152542
+step 567 train/loss=0.00049712 train/lr=0.00015096
+step 568 train/loss=0.000452147 train/lr=0.000149385
+step 569 train/loss=0.000502439 train/lr=0.000147817
+step 570 val/loss=2.15419
+step 570 train/loss=0.000519649 train/lr=0.000146255
+step 571 train/loss=0.000524777 train/lr=0.000144701
+step 572 train/loss=0.000445161 train/lr=0.000143153
+step 573 train/loss=0.000483173 train/lr=0.000141612
+step 574 train/loss=0.000406362 train/lr=0.000140078
+step 575 val/loss=2.1551
+step 575 train/loss=0.000520626 train/lr=0.000138552
+step 576 train/loss=0.000452614 train/lr=0.000137032
+step 577 train/loss=0.000425024 train/lr=0.000135519
+step 578 train/loss=0.000520619 train/lr=0.000134014
+step 579 train/loss=0.000471428 train/lr=0.000132515
+step 580 val/loss=2.15607
+step 580 train/loss=0.000503264 train/lr=0.000131024
+step 581 train/loss=0.000427102 train/lr=0.000129539
+step 582 train/loss=0.000450525 train/lr=0.000128063
+step 583 train/loss=0.000465844 train/lr=0.000126593
+step 584 train/loss=0.000562769 train/lr=0.00012513
+step 585 val/loss=2.15692
+step 585 train/loss=0.00051521 train/lr=0.000123675
+step 586 train/loss=0.00036304 train/lr=0.000122227
+step 587 train/loss=0.000478368 train/lr=0.000120787
+step 588 train/loss=0.000455893 train/lr=0.000119353
+step 589 train/loss=0.000600161 train/lr=0.000117928
+step 590 val/loss=2.15778
+step 590 train/loss=0.000360522 train/lr=0.000116509
+step 591 train/loss=0.000510231 train/lr=0.000115098
+step 592 train/loss=0.000512289 train/lr=0.000113695
+step 593 train/loss=0.000554717 train/lr=0.000112299
+step 594 train/loss=0.000406904 train/lr=0.000110911
+step 595 val/loss=2.15859
+step 595 train/loss=0.000520566 train/lr=0.00010953
+step 596 train/loss=0.000352711 train/lr=0.000108157
+step 597 train/loss=0.000542562 train/lr=0.000106791
+step 598 train/loss=0.000420474 train/lr=0.000105433
+step 599 train/loss=0.000543616 train/lr=0.000104083
+step 600 val/loss=2.15928
+step 600 train/loss=0.000426638 train/lr=0.00010274
+step 601 train/loss=0.000389575 train/lr=0.000101406
+step 602 train/loss=0.000545362 train/lr=0.000100079
+step 603 train/loss=0.000453431 train/lr=9.87592e-05
+step 604 train/loss=0.000564125 train/lr=9.74477e-05
+step 605 val/loss=2.16002
+step 605 train/loss=0.000401575 train/lr=9.6144e-05
+step 606 train/loss=0.000460173 train/lr=9.48482e-05
+step 607 train/loss=0.000585068 train/lr=9.35602e-05
+step 608 train/loss=0.000472801 train/lr=9.22802e-05
+step 609 train/loss=0.000402624 train/lr=9.1008e-05
+step 610 val/loss=2.16073
+step 610 train/loss=0.000383429 train/lr=8.97438e-05
+step 611 train/loss=0.000525516 train/lr=8.84876e-05
+step 612 train/loss=0.000448175 train/lr=8.72394e-05
+step 613 train/loss=0.0005815 train/lr=8.59992e-05
+step 614 train/loss=0.000365862 train/lr=8.47671e-05
+step 615 val/loss=2.16144
+step 615 train/loss=0.00036557 train/lr=8.3543e-05
+step 616 train/loss=0.000521029 train/lr=8.23271e-05
+step 617 train/loss=0.000489059 train/lr=8.11192e-05
+step 618 train/loss=0.000431848 train/lr=7.99195e-05
+step 619 train/loss=0.000548381 train/lr=7.8728e-05
+step 620 val/loss=2.16204
+step 620 train/loss=0.000475583 train/lr=7.75447e-05
+step 621 train/loss=0.000486801 train/lr=7.63695e-05
+step 622 train/loss=0.000429861 train/lr=7.52026e-05
+step 623 train/loss=0.000480411 train/lr=7.4044e-05
+step 624 train/loss=0.00044611 train/lr=7.28936e-05
+step 625 val/loss=2.16254
+step 625 train/loss=0.000478622 train/lr=7.17516e-05
+step 626 train/loss=0.000403948 train/lr=7.06179e-05
+step 627 train/loss=0.000539561 train/lr=6.94925e-05
+step 628 train/loss=0.000448585 train/lr=6.83755e-05
+step 629 train/loss=0.000441779 train/lr=6.72669e-05
+step 630 val/loss=2.163
+step 630 train/loss=0.000534752 train/lr=6.61667e-05
+step 631 train/loss=0.000415232 train/lr=6.50749e-05
+step 632 train/loss=0.000345192 train/lr=6.39916e-05
+step 633 train/loss=0.000508038 train/lr=6.29168e-05
+step 634 train/loss=0.000533236 train/lr=6.18504e-05
+step 635 val/loss=2.16344
+step 635 train/loss=0.000508585 train/lr=6.07926e-05
+step 636 train/loss=0.00041519 train/lr=5.97433e-05
+step 637 train/loss=0.0004353 train/lr=5.87026e-05
+step 638 train/loss=0.000472081 train/lr=5.76704e-05
+step 639 train/loss=0.00048642 train/lr=5.66469e-05
+step 640 val/loss=2.16389
+step 640 train/loss=0.000498308 train/lr=5.5632e-05
+step 641 train/loss=0.000424257 train/lr=5.46257e-05
+step 642 train/loss=0.000446733 train/lr=5.36281e-05
+step 643 train/loss=0.000524743 train/lr=5.26391e-05
+step 644 train/loss=0.00038939 train/lr=5.16589e-05
+step 645 val/loss=2.16428
+step 645 train/loss=0.000492612 train/lr=5.06873e-05
+step 646 train/loss=0.000519758 train/lr=4.97245e-05
+step 647 train/loss=0.000430608 train/lr=4.87705e-05
+step 648 train/loss=0.000366557 train/lr=4.78252e-05
+step 649 train/loss=0.000506964 train/lr=4.68887e-05
+step 650 val/loss=2.16465
+step 650 train/loss=0.000419273 train/lr=4.59611e-05
+step 651 train/loss=0.000505976 train/lr=4.50422e-05
+step 652 train/loss=0.000432106 train/lr=4.41322e-05
+step 653 train/loss=0.000526793 train/lr=4.32311e-05
+step 654 train/loss=0.000393796 train/lr=4.23388e-05
+step 655 val/loss=2.16503
+step 655 train/loss=0.000391825 train/lr=4.14555e-05
+step 656 train/loss=0.000469689 train/lr=4.0581e-05
+step 657 train/loss=0.000374979 train/lr=3.97155e-05
+step 658 train/loss=0.000494391 train/lr=3.8859e-05
+step 659 train/loss=0.000612498 train/lr=3.80114e-05
+step 660 val/loss=2.16537
+step 660 train/loss=0.000519347 train/lr=3.71728e-05
+step 661 train/loss=0.00050893 train/lr=3.63431e-05
+step 662 train/loss=0.000329346 train/lr=3.55225e-05
+step 663 train/loss=0.000488707 train/lr=3.4711e-05
+step 664 train/loss=0.000440893 train/lr=3.39084e-05
+step 665 val/loss=2.16565
+step 665 train/loss=0.000450419 train/lr=3.3115e-05
+step 666 train/loss=0.000430778 train/lr=3.23306e-05
+step 667 train/loss=0.000497216 train/lr=3.15553e-05
+step 668 train/loss=0.000465243 train/lr=3.07891e-05
+step 669 train/loss=0.000441172 train/lr=3.0032e-05
+step 670 val/loss=2.1659
+step 670 train/loss=0.000531429 train/lr=2.92841e-05
+step 671 train/loss=0.000378245 train/lr=2.85453e-05
+step 672 train/loss=0.000483655 train/lr=2.78157e-05
+step 673 train/loss=0.000424834 train/lr=2.70953e-05
+step 674 train/loss=0.000475155 train/lr=2.6384e-05
+step 675 val/loss=2.16611
+step 675 train/loss=0.000396795 train/lr=2.5682e-05
+step 676 train/loss=0.000471433 train/lr=2.49892e-05
+step 677 train/loss=0.000491489 train/lr=2.43056e-05
+step 678 train/loss=0.000560114 train/lr=2.36313e-05
+step 679 train/loss=0.000324561 train/lr=2.29662e-05
+step 680 val/loss=2.1663
+step 680 train/loss=0.000471127 train/lr=2.23104e-05
+step 681 train/loss=0.0004895 train/lr=2.16639e-05
+step 682 train/loss=0.000463768 train/lr=2.10267e-05
+step 683 train/loss=0.000440426 train/lr=2.03988e-05
+step 684 train/loss=0.00040226 train/lr=1.97803e-05
+step 685 val/loss=2.16645
+step 685 train/loss=0.000464342 train/lr=1.9171e-05
+step 686 train/loss=0.000479365 train/lr=1.85712e-05
+step 687 train/loss=0.00044057 train/lr=1.79806e-05
+step 688 train/loss=0.000423911 train/lr=1.73995e-05
+step 689 train/loss=0.000482554 train/lr=1.68277e-05
+step 690 val/loss=2.16661
+step 690 train/loss=0.000456056 train/lr=1.62653e-05
+step 691 train/loss=0.000520566 train/lr=1.57124e-05
+step 692 train/loss=0.000535229 train/lr=1.51688e-05
+step 693 train/loss=0.000388555 train/lr=1.46347e-05
+step 694 train/loss=0.000346659 train/lr=1.411e-05
+step 695 val/loss=2.16672
+step 695 train/loss=0.000449521 train/lr=1.35947e-05
+step 696 train/loss=0.00053167 train/lr=1.30889e-05
+step 697 train/loss=0.000415451 train/lr=1.25926e-05
+step 698 train/loss=0.000411283 train/lr=1.21058e-05
+step 699 train/loss=0.00047966 train/lr=1.16284e-05
+step 700 val/loss=2.16683
+step 700 train/loss=0.000440972 train/lr=1.11605e-05
+step 701 train/loss=0.000359701 train/lr=1.07022e-05
+step 702 train/loss=0.000500874 train/lr=1.02533e-05
+step 703 train/loss=0.000499009 train/lr=9.81398e-06
+step 704 train/loss=0.000489144 train/lr=9.38418e-06
+step 705 val/loss=2.1669
+step 705 train/loss=0.000439409 train/lr=8.96391e-06
+step 706 train/loss=0.000514628 train/lr=8.5532e-06
+step 707 train/loss=0.000471964 train/lr=8.15204e-06
+step 708 train/loss=0.000446385 train/lr=7.76044e-06
+step 709 train/loss=0.000383638 train/lr=7.37841e-06
+step 710 val/loss=2.16697
+step 710 train/loss=0.00041427 train/lr=7.00595e-06
+step 711 train/loss=0.000403297 train/lr=6.64309e-06
+step 712 train/loss=0.000559271 train/lr=6.28981e-06
+step 713 train/loss=0.000461299 train/lr=5.94613e-06
+step 714 train/loss=0.000432626 train/lr=5.61206e-06
+step 715 val/loss=2.16702
+step 715 train/loss=0.000452076 train/lr=5.2876e-06
+step 716 train/loss=0.00041064 train/lr=4.97276e-06
+step 717 train/loss=0.000438067 train/lr=4.66754e-06
+step 718 train/loss=0.00050812 train/lr=4.37195e-06
+step 719 train/loss=0.000474561 train/lr=4.08599e-06
+step 720 val/loss=2.16706
+step 720 train/loss=0.000500052 train/lr=3.80968e-06
+step 721 train/loss=0.000466404 train/lr=3.54302e-06
+step 722 train/loss=0.000383218 train/lr=3.28601e-06
+step 723 train/loss=0.000526957 train/lr=3.03865e-06
+step 724 train/loss=0.000375579 train/lr=2.80095e-06
+step 725 val/loss=2.16708
+step 725 train/loss=0.000464687 train/lr=2.57293e-06
+step 726 train/loss=0.000473473 train/lr=2.35457e-06
+step 727 train/loss=0.000536373 train/lr=2.14589e-06
+step 728 train/loss=0.000477691 train/lr=1.94688e-06
+step 729 train/loss=0.000265293 train/lr=1.75756e-06
+step 730 val/loss=2.1671
+step 730 train/loss=0.00045184 train/lr=1.57793e-06
+step 731 train/loss=0.000464362 train/lr=1.40799e-06
+step 732 train/loss=0.000458717 train/lr=1.24774e-06
+step 733 train/loss=0.000440611 train/lr=1.09718e-06
+step 734 train/loss=0.000463893 train/lr=9.56328e-07
+step 735 val/loss=2.16711
+step 735 train/loss=0.000395867 train/lr=8.25176e-07
+step 736 train/loss=0.000510238 train/lr=7.03728e-07
+step 737 train/loss=0.000450588 train/lr=5.91988e-07
+step 738 train/loss=0.000426361 train/lr=4.89957e-07
+step 739 train/loss=0.000511023 train/lr=3.97637e-07
+step 740 val/loss=2.16712
+step 740 train/loss=0.000410177 train/lr=3.15031e-07
+step 741 train/loss=0.000415921 train/lr=2.42139e-07
+step 742 train/loss=0.000470933 train/lr=1.78963e-07
+step 743 train/loss=0.000568815 train/lr=1.25504e-07
+step 744 train/loss=0.000390522 train/lr=8.17637e-08
+step 745 val/loss=2.16712
+step 745 train/loss=0.000448564 train/lr=4.77426e-08
+step 746 train/loss=0.000479061 train/lr=2.34413e-08
+step 747 train/loss=0.000460054 train/lr=8.86035e-09
+step 748 train/loss=0.000453455 train/lr=4e-09
+step 749 train/loss=0.000426452 train/lr=8.86035e-09
+step 750 val/loss=2.16712
